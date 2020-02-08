@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fragments101</string>
+    <string name="welcome_text">Welcome to Fragment:101</string>
+    <string name="sample_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium turpis a erat finibus ultrices. Praesent malesuada nisi elit, sit amet mollis augue bibendum quis. Etiam quis diam auctor, sollicitudin ex malesuada, lacinia dolor. Sed sed mattis leo. Donec semper odio sed suscipit ullamcorper. Nam sit amet iaculis risus. Nam facilisis, ante sit amet bibendum viverra, orci odio convallis enim, non lacinia magna arcu ut neque. Nulla vehicula eros id tempus molestie.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
