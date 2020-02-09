@@ -73,5 +73,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dynamicFragment" />
 
+    <Button
+        android:id="@+id/viewpagerbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onClick"
+        android:text="ViewPager"
+        app:layout_constraintEnd_toStartOf="@+id/fragmentstatepager"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/communicationFragment" />
+
+    <Button
+        android:id="@+id/fragmentstatepager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="FragmentStatePager"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewmodelCommunication" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

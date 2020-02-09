@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewPager.ViewPagerActivity"></activity>
+        <activity android:name=".FragmentsStatePagerAdapter.FragmentPagerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".ViewPager.ViewPagerActivity" />
         <activity android:name=".Communicate.UsingViewModel.UsingViewModel" />
         <activity android:name=".Communicate.UsingInterface.CommunicateActivity" />
         <activity android:name=".MainActivity">
