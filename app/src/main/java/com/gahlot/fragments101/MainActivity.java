@@ -7,13 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.gahlot.fragments101.Communicate.CommunicateActivity;
+import com.gahlot.fragments101.Communicate.UsingInterface.CommunicateActivity;
+import com.gahlot.fragments101.Communicate.UsingViewModel.UsingViewModel;
 import com.gahlot.fragments101.DynamicFragments.DynamicFragmentActivity;
 import com.gahlot.fragments101.XmlFragments.FragmentImplemented;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button xmlfragment, dynamicFragment, communicationFragment;
+    private Button xmlfragment, dynamicFragment, communicationFragment, viewmodelCommunciation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         xmlfragment = findViewById(R.id.xmlFragment);
         dynamicFragment = findViewById(R.id.dynamicFragment);
         communicationFragment = findViewById(R.id.communicationFragment);
+        viewmodelCommunciation = findViewById(R.id.viewmodelCommunication);
     }
 
     @Override
@@ -37,7 +39,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             openDynamicFragment();
         } else if (communicationFragment.equals(view)) {
             openCommunicationFragment();
+        } else if (viewmodelCommunciation.equals(view)) {
+            openViewModelCommunicationFragment();
         }
+    }
+
+    private void openViewModelCommunicationFragment() {
+        Intent intent = new Intent(this, UsingViewModel.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        startActivity(intent);
     }
 
     private void openFragmentImplemented() {

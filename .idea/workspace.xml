@@ -11,12 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6264a892-f8ee-4f91-870e-f55ea454d1b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/CommunicateActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/FragmentOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/FragmentSecond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_second.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragmentone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/FragmentConvertedCurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/FragmentCurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/MyViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/UsingViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_using_view_model.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_converted_currency.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_currency.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -28,10 +36,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/CommunicateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingInterface/CommunicateActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/FragmentOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingInterface/FragmentOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/FragmentSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingInterface/FragmentSecond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragmentone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragmentone.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,36 +68,13 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/CommunicateActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="11" selection-start-line="11" selection-end-line="42" selection-end-column="1" />
-              <folding>
-                <element signature="e#1535#1536#0" expanded="true" />
-                <element signature="e#1582#1583#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,7 +91,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/DynamicFragmentActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/FragmentImplemented.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_new.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/DynamicFragments/newFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
@@ -112,12 +105,22 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/Fragmentone.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_second.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/FragmentSecond.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/CommunicateActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragmentone.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/FragmentOne.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/DynamicFragments/activity_dynamic.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/MyViewModel.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/FragmentCurrency.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_converted_currency.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_currency.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/FragmentConvertedCurrency.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/UsingViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingInterface/CommunicateActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_using_view_model.xml" />
       </list>
     </option>
   </component>
@@ -207,6 +210,40 @@
               <item name="fragments101" type="462c0819:PsiDirectoryNode" />
               <item name="Communicate" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Fragments101" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fragments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gahlot" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments101" type="462c0819:PsiDirectoryNode" />
+              <item name="Communicate" type="462c0819:PsiDirectoryNode" />
+              <item name="UsingInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fragments101" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fragments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gahlot" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments101" type="462c0819:PsiDirectoryNode" />
+              <item name="Communicate" type="462c0819:PsiDirectoryNode" />
+              <item name="UsingViewModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fragments101" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fragments" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -227,10 +264,15 @@
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
+      <recent name="com.gahlot.fragments101.Communicate.UsingViewModel" />
       <recent name="com.gahlot.fragments101.Communicate" />
       <recent name="com.gahlot.fragments101" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout/DynamicFragments" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/DynamicFragments" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout/Communicate" />
       <recent name="$PROJECT_DIR$/Fragments" />
     </key>
   </component>
@@ -323,7 +365,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="978" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32967034" />
@@ -334,9 +375,9 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.33521444" />
+      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.33521444" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.3295711" />
-      <window_info anchor="bottom" id="Logcat" order="2" visible="true" weight="0.3295711" />
+      <window_info anchor="bottom" id="Logcat" order="2" weight="0.3295711" />
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Android Profiler" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3295711" />
@@ -362,14 +403,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/myfragment.xml" />
-    <entry file="file://$PROJECT_DIR$/Fragments/app/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/Fragments/app/src/main/java/com/gahlot/fragments101/MainActivity.java" />
-    <entry file="file://$PROJECT_DIR$/Fragments/app/src/main/AndroidManifest.xml" />
-    <entry file="file://$PROJECT_DIR$/Fragments/app/src/main/java/com/gahlot/fragments101/DynamicFragments/FirstFragment.java" />
-    <entry file="file://$PROJECT_DIR$/Fragments/app/src/main/java/com/gahlot/fragments101/DynamicFragments/DynamicFragmentActivity.java" />
-    <entry file="file://$PROJECT_DIR$/Fragments/app/src/main/java/com/gahlot/fragments101/DynamicFragments/newFragment.java" />
-    <entry file="file://$PROJECT_DIR$/Fragments/app/src/main/java/com/gahlot/fragments101/XmlFragments/TitleFragment.java" />
     <entry file="file://$PROJECT_DIR$/Fragments/app/src/main/java/com/gahlot/fragments101/XmlFragments/MyFragment.java" />
     <entry file="file://$PROJECT_DIR$/Fragments/app/src/main/java/com/gahlot/fragments101/XmlFragments/FragmentImplemented.java" />
     <entry file="file://$PROJECT_DIR$/Fragments/.gradle/5.4.1/gc.properties" />
@@ -401,14 +434,6 @@
     <entry file="file://$PROJECT_DIR$/Fragments/Fragments101.iml" />
     <entry file="file://$PROJECT_DIR$/Fragments/build.gradle" />
     <entry file="file://$PROJECT_DIR$/Fragments/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_second.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -417,67 +442,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dynamic.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+        <state relative-caret-position="15">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dynamic_fragment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_fragmentone.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_second.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingInterface/FragmentSecond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingInterface/FragmentOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_converted_currency.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_fragment_currency.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="285">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_fragmentone.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/FragmentOne.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="367">
+          <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/UsingViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_using_view_model.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingInterface/CommunicateActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <element signature="e#944#1196#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1259#1512#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1550#1801#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/FragmentSecond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="297">
+          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/CommunicateActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/MyViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="11" selection-start-line="11" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/FragmentCurrency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gahlot/fragments101/Communicate/UsingViewModel/FragmentConvertedCurrency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>

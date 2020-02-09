@@ -1,13 +1,11 @@
-package com.gahlot.fragments101.Communicate;
+package com.gahlot.fragments101.Communicate.UsingInterface;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 
-import com.gahlot.fragments101.DynamicFragments.FirstFragment;
 import com.gahlot.fragments101.R;
-import com.gahlot.fragments101.XmlFragments.MyFragment;
 
 public class CommunicateActivity extends AppCompatActivity implements FragmentOne.OnFragmentOneListener {
 
@@ -26,13 +24,13 @@ public class CommunicateActivity extends AppCompatActivity implements FragmentOn
         mFirstFragment = (FragmentOne) fragmentManager.findFragmentByTag(FIRST_TAG);
         if (mFirstFragment == null) {
             mFirstFragment = new FragmentOne();
-            fragmentManager.beginTransaction().add(R.id.first_fragment_container, mFirstFragment, FIRST_TAG).commit();
+            fragmentManager.beginTransaction().add(R.id.first_fragment_container_viewmodel, mFirstFragment, FIRST_TAG).commit();
         }
 
         mSecondFragment = (FragmentSecond) fragmentManager.findFragmentByTag(SECOND_TAG);
         if (mSecondFragment == null) {
             mSecondFragment = new FragmentSecond();
-            fragmentManager.beginTransaction().add(R.id.second_fragment_container, mSecondFragment, FIRST_TAG).commit();
+            fragmentManager.beginTransaction().add(R.id.second_fragment_container_viewmodel, mSecondFragment, FIRST_TAG).commit();
         }
     }
 
