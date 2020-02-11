@@ -7,8 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.gahlot.fragments101.BottomSheet.BottomSheetActivity;
 import com.gahlot.fragments101.Communicate.UsingInterface.CommunicateActivity;
 import com.gahlot.fragments101.Communicate.UsingViewModel.UsingViewModel;
+import com.gahlot.fragments101.DialogFragment.DialogFragmentActivity;
 import com.gahlot.fragments101.DynamicFragments.DynamicFragmentActivity;
 import com.gahlot.fragments101.FragmentsStatePagerAdapter.FragmentPagerActivity;
 import com.gahlot.fragments101.ViewPager.ViewPagerActivity;
@@ -17,7 +19,7 @@ import com.gahlot.fragments101.XmlFragments.FragmentImplemented;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button xmlfragment, dynamicFragment, communicationFragment, viewmodelCommunciation, viewPagerButton,
-            fragmentstatepagerbutton;
+            fragmentstatepagerbutton, bottomsheetbutton, dialogfragmentbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         viewmodelCommunciation = findViewById(R.id.viewmodelCommunication);
         viewPagerButton = findViewById(R.id.viewpagerbutton);
         fragmentstatepagerbutton = findViewById(R.id.fragmentstatepager);
+        bottomsheetbutton = findViewById(R.id.bottomsheet);
+        dialogfragmentbutton = findViewById(R.id.dialogfragmentbutton);
 
     }
 
@@ -51,7 +55,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             openViewPagerActivity();
         } else if (fragmentstatepagerbutton.equals(view)) {
             openFragmentStatePagerActivity();
+        } else if (bottomsheetbutton.equals(view)) {
+            openBottomSheetActivity();
+        } else if (dialogfragmentbutton.equals(view)) {
+            openDialogFragmentActivity();
         }
+    }
+
+    private void openDialogFragmentActivity() {
+        Intent intent = new Intent(this, DialogFragmentActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        startActivity(intent);
+    }
+
+    private void openBottomSheetActivity() {
+        Intent intent = new Intent(this, BottomSheetActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        startActivity(intent);
     }
 
     private void openFragmentStatePagerActivity() {
